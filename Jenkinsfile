@@ -11,8 +11,7 @@ pipeline {
         stage('Initialize') {
             steps {
                 sh '''
-                    echo "PATH = ${Path}"
-                    echo "USERNAME = ${USERNAME}"
+                    echo "Initialisation du build"
                 '''
             }
         }
