@@ -12,7 +12,7 @@ public class HelloWorld {
         System.out.println("Hello world");
 
     }
-
+    // trigger le sonar
     public String SoutHelloWorld()
     {
         String hello = "Hello World";
